@@ -4,4 +4,5 @@
     <string name="thread_activity_runonuithread_runnable">THREAD: Activity.runOnUiThread(Runnable)</string>
     <string name="thread_view_post_runnable">THREAD: View.post(Runnable)</string>
     <string name="thread_view_postdelayed_runnable_long">THREAD: View.postDelayed(Runnable, long)</string>
+    <string name="thread_android_os_handler">THREAD: android.os.Handler</string>
 </resources>

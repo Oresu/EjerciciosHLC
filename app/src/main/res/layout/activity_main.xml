@@ -40,6 +40,6 @@
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/thread_view_postdelayed_runnable_long" />
+            android:text="@string/thread_android_os_handler" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
