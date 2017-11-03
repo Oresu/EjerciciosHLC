@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EjerciciosHLC</string>
+    <string name="ejercicios_de_clase_hlc">Ejercicios de clase HLC</string>
+    <string name="thread_activity_runonuithread_runnable">THREAD: Activity.runOnUiThread(Runnable)</string>
+    <string name="thread_view_post_runnable">THREAD: View.post(Runnable)</string>
+    <string name="thread_view_postdelayed_runnable_long">THREAD: View.postDelayed(Runnable, long)</string>
+</resources>
