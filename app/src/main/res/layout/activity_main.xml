@@ -41,5 +41,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/thread_android_os_handler" />
+
+        <Button
+            android:id="@+id/button_ejemplo_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="servicioSimple"
+            android:text="@string/ejemplo_service" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
