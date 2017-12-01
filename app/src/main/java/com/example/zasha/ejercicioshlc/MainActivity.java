@@ -20,4 +20,9 @@ public class MainActivity extends AppCompatActivity {
         Intent servicio = new Intent(this, MyService.class);
         startService(servicio);
     }
+
+    public void sm(View view) {
+        Intent servicioMusica = new Intent(this, MainServicioMusica.class);
+        startActivity(servicioMusica);
+    }
 }

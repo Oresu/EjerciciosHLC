@@ -19,9 +19,15 @@
 
         <service
             android:name=".MyService"
-            android:process=":remote"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true"
+            android:process=":remote" />
+        <service
+            android:name=".ServicioMusica"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".MainServicioMusica"></activity>
     </application>
 
 </manifest>

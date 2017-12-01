@@ -6,4 +6,5 @@
     <string name="thread_view_postdelayed_runnable_long">THREAD: View.postDelayed(Runnable, long)</string>
     <string name="thread_android_os_handler">THREAD: android.os.Handler</string>
     <string name="ejemplo_service">Ejemplo Service</string>
+    <string name="servicio_de_musica">Servicio de Musica</string>
 </resources>

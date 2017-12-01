@@ -19,7 +19,8 @@
             android:padding="16dp"
             android:text="@string/ejercicios_de_clase_hlc"
             android:textAppearance="@android:style/TextAppearance.Material.Title"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            tools:ignore="NewApi" />
 
         <Button
             android:id="@+id/button"
@@ -44,9 +45,17 @@
 
         <Button
             android:id="@+id/button_ejemplo_service"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="servicioSimple"
             android:text="@string/ejemplo_service" />
+
+        <Button
+            android:id="@+id/button_servicio_musica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sm"
+            android:text="@string/servicio_de_musica" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
